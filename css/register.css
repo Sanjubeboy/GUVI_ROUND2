@@ -4,8 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-image: url(../assets/img/home.gif); 
+}
+
 .wrapper{
-    background: #ececec;
+    /* background: #ececec; */
+    /* background-image: url(../assets/img/home.gif); */
     padding: 0 20px 0 20px;
 }
 .main{

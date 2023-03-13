@@ -10,6 +10,8 @@
     // else{
     //     echo "Database connected";
     // }
+    require '../assets/redis/vendor/autoload.php';
+    $redis = new Predis\Client();
 
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -65,8 +67,10 @@
 
                                 // sql id
                                 //local st
+                                $redis->set('name', $name);
 
                                 echo "success".$name;
+                                
                                 
                             }
                         }

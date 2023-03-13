@@ -8,7 +8,8 @@
   
   #more {display: none;}
   body {
-    background: #fbf3ff;
+    /* background: #730da6; */
+    background-image: url(../assets/img/home.gif);
   } 
   .container {
     position: absolute;
@@ -54,7 +55,7 @@
 }
 
   .myLeftCtn header {
-    color: blueviolet;
+    color: rgb(60, 115, 233);
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -103,7 +104,8 @@
     margin-top: 50px;
   } 
   .myLeftCtn .butt {
-    background: linear-gradient(45deg, #bb36fd, #9b00e8);
+    background: rgb(60, 115, 233);
+    /* background: linear-gradient(45deg, #bb36fd, #9b00e8); */
     color: #fff;
     width: 230px;
     border: none;
@@ -114,14 +116,15 @@
     box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
   } 
   .myLeftCtn .butt:hover {
-    background: linear-gradient(45deg, #c85bff, #b726ff);
+    /* background: linear-gradient(45deg, #c85bff, #b726ff); */
+    color: rgb(60, 115, 233);
   }
   .myLeftCtn .butt:focus {
     outline: none;
   } 
   .myLeftCtn .fas {
     position: relative;
-    color: #bb36fd;
+    color: rgb(60, 115, 233);
     left: 36px;
   } 
   .butt_out {
