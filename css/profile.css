@@ -21,7 +21,8 @@
   } 
   .myRightCtn {
     position: relative;
-    background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+    background-image: url(../assets/img/profile.jpg);
+    /* background-image: linear-gradient(45deg, #ffffff, #ffffff); */
     border-radius: 25px;
     height: 100%;
     padding: 25px;
@@ -162,8 +163,8 @@ color: #757575;
 
 .myRightCtn .box header
 {
-
-  background-image: linear-gradient(90deg, #0000FF, #0096FF, #00FFFF, 	#89CFF0);
+  background-color: #ffff;
+  /* background-image: linear-gradient(90deg, #0000FF, #0096FF, #00FFFF, 	#89CFF0); */
   color: #0000;
   -webkit-background-clip: text;
   background-clip: text;

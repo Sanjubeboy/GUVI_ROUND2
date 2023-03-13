@@ -48,7 +48,7 @@ else{
 
 if(name != null)
 {
-    print.innerHTML = "Welcome " + name;
+    print.innerHTML = "Welcome " + name + "!!";
 }
 // else if(email != null)
 // {
@@ -73,7 +73,7 @@ continueBtn.onclick = () =>{
             if(data == "success")
             {
                 console.log(data);
-                alert("Information Successfully Updated!");
+                alert("Details updated in Mongodb!");
             }else{
                 alert(data);
                 console.log(data);
